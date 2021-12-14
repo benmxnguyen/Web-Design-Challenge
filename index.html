@@ -44,42 +44,48 @@
 
   <body style="background-color: rgb(220, 219, 223);">
     <div class="row">
-    <div class="container-fluid col-md-5 col-s-12", style="background-color: white; display: inline-block; padding: 30px; margin-left: 200px; margin-right: 40px; margin-top: 40px; padding-left: 40px; padding-right: 40px">
+      <div class="container-fluid col-md-6 col-s-12" style="background-color: white; margin-top: 40px; margin-bottom: 20px;">
         <h1 style="margin-left: 50x; margin-top: 50px; margin-bottom: 30px; color: rgb(33, 184, 159); font-size: 40px"><b>Summary: Latitude vs. X</b></h1> <hr/>
         <a target="_blank" href="visualizations/Latitude_vs_Temperature_regress.png">
           <img src="visualizations/Latitude_vs_Temperature_regress.png" width=250 height=250 style="float: left"  alt="Latitude vs Temperature">
         </a>
-        <p style="font-size: 18px; display: inline">The goal of this projecet was to determine how the weather varies based on latitude.
-          Using the OpenWeatherMap API, we pulled data for over 500 cities to do the analysis. <br> <br> <br> <br>
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias fugiat explicabo nobis illo ipsam animi, nihil commodi placeat quae error iure beatae dolore asperiores. Temporibus dolor deserunt pariatur ipsa aspernatur!</p>
-    </div>
+            <br>
+            <p style="font-size: 20px; display: inline; line-height: 180%;">The goal of this projecet was to determine how the weather varies based on latitude.
+              Using the OpenWeatherMap API, we pulled data for over 500 cities to do the analysis. <br> <br> Using python, we leveraged Matplotlib to plot the
+              relationship between various weather aspects against latitude. Some of these aspects include the temperature (F), wind speed (mph), cloudiness (%), as well as humidity (%)<br>
+              This site provides visualizations for each different aspect with a brief description about any possible trends or correlations. It also contains a table including all of the
+              data as well as a page that allows for a quick comparison between each aspect.<br> <br> <br>
+      </div>
 
-      <div class="container-fluid col-md-auto col-s-12", style="background-color: white; display: inline-block; margin-top: 40px; margin-left: 0px; padding-left: 40px; padding-right: 40px; padding-bottom: 40px">
-        <h2 style="margin-left: 50x; margin-top: 50px; margin-bottom: 30px; color: rgb(33, 184, 159); font-size: 30px;"><b>Visualizations</b></h2> <hr/>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-auto">
-              <a target="_blank" href="https://benmxnguyen.github.io/MaxTemperature/">
-                <img src="visualizations/Latitude_vs_Temperature_regress.png" width=175 height=175 alt="Latitude vs Temperature" style="padding: 5px">
-              </a>
+      <div class="container-fluid col-md-4 col-s-12", style="background-color: white; margin-top: 40px; margin-bottom: 20px;">
+        <h2 style="margin-left: 50x; margin-top: 50px; margin-bottom: 30px; color: rgb(33, 184, 159); font-size: 25px;"><b>Visualizations</b></h2> <hr/>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 col-sm-12">
+                <a target="_blank" href="https://benmxnguyen.github.io/MaxTemperature/">
+                  <img src="https://github.com/benmxnguyen/Web-Design-Challenge/blob/main/visualizations/Latitude_vs_Temperature_regress.png?raw=true" width=90% height=120% alt="Latitude vs Temperature" style="padding-top: 30px; padding-bottom: 30px">
+                </a>
+              </div>
+              <div class="col-md-6 col-sm-12">
+                <a target="_blank" href="https://benmxnguyen.github.io/Humidity/">
+                  <img src="https://github.com/benmxnguyen/Web-Design-Challenge/blob/main/visualizations/Latitude_vs_Humidity_regress.png?raw=true" width=90% height=120% alt="Latitude vs Humidity" style="padding-top: 30px; padding-bottom: 30px">
+                </a>
+              </div>
             </div>
-            <div class="col-md-auto">
-              <a target="_blank" href="https://benmxnguyen.github.io/Humidity/">
-                <img src="visualizations/Latitude_vs_Humidity_regress.png" width=175 height=175 alt="Latitude vs Humidity" style="padding: 5px">
-              </a>
+
+            <div class="row">
+              <div class="col-md-6 col-sm-12">
+                <a target="_blank" href="https://benmxnguyen.github.io/Cloudiness/">
+                  <img src="https://github.com/benmxnguyen/Web-Design-Challenge/blob/main/visualizations/Latitude_vs_Cloudiness_regress.png?raw=true" width=90% height=120% alt="Latitude vs Cloudiness" style="padding-top: 30px; padding-bottom: 30px">
+                </a>
+              </div>
+              <div class="col-md-6 col-sm-12">
+                <a target="_blank" href="https://benmxnguyen.github.io/WindSpeed/">
+                  <img src="https://github.com/benmxnguyen/Web-Design-Challenge/blob/main/visualizations/Latitude_vs_WindSpeed_regress.png?raw=true" width=90% height=120% alt="Latitude vs Wind Speed" style="padding-top: 30px; padding-bottom: 30px">
+                </a>
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-auto">
-              <a target="_blank" href="https://benmxnguyen.github.io/Cloudiness/">
-                <img src="visualizations/Latitude_vs_Cloudiness_regress.png" width=175 height=175 alt="Latitude vs Cloudiness" style="padding: 5px">
-              </a>
-            </div>
-            <div class="col-md-auto">
-              <a target="_blank" href="https://benmxnguyen.github.io/WindSpeed/">
-                <img src="visualizations/Latitude_vs_WindSpeed_regress.png" width=175 height=175 alt="Latitude vs Wind Speed" style="padding: 5px">
-              </a>
-          </div>
+        </div>
       </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

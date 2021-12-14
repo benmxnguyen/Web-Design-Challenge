@@ -8,11 +8,11 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>Latitude</title>
+    <title>Latitude Analysis</title>
   </head>
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#" style="padding: 10px; margin-bottom: 0px; background-color: rgb(33, 184, 159); color: white"><b>Latitude</b></a>
+        <a class="navbar-brand" href="https://benmxnguyen.github.io/Web-Design-Challenge/" style="padding: 10px; margin-bottom: 0px; background-color: rgb(33, 184, 159); color: white"><b>Latitude</b></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -24,59 +24,63 @@
                     Plots
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Max Temperature</a>
-                  <a class="dropdown-item" href="#">Humidity</a>
-                  <a class="dropdown-item" href="#">Cloudiness</a>
-                  <a class="dropdown-item" href="#">Wind Speed</a>
+                  <a class="dropdown-item" href="https://benmxnguyen.github.io/MaxTemperature/">Max Temperature</a>
+                  <a class="dropdown-item" href="https://benmxnguyen.github.io/Humidity/">Humidity</a>
+                  <a class="dropdown-item" href="https://benmxnguyen.github.io/Cloudiness/">Cloudiness</a>
+                  <a class="dropdown-item" href="https://benmxnguyen.github.io/WindSpeed/">Wind Speed</a>
                 </div>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">Comparison<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="https://benmxnguyen.github.io/Comparisons/">Comparison<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Data</a>
+              <a class="nav-link" href="https://benmxnguyen.github.io/Web-Design-Challenge-Data/">Data</a>
             </li>
           </ul>
         </div>
       </nav>     
-</header>
+    </header>
+
+
   <body style="background-color: rgb(220, 219, 223);">
-    <div class="container", style="background-color: white; display: inline-block; margin-top: 40px; margin-bottom: 20px; margin-left: 200px; margin-right: 10px; width: 50%">
-        <h1 style="margin-left: 50x; margin-top: 50px; margin-bottom: 30px; color: rgb(33, 184, 159); font-size: 30px"><b>Summary: Latitude vs. X</b></h1> <hr/>
+    <div class="row">
+    <div class="container-fluid col-md-5 col-s-12", style="background-color: white; display: inline-block; padding: 30px; margin-left: 200px; margin-right: 40px; margin-top: 40px; padding-left: 40px; padding-right: 40px">
+        <h1 style="margin-left: 50x; margin-top: 50px; margin-bottom: 30px; color: rgb(33, 184, 159); font-size: 40px"><b>Summary: Latitude vs. X</b></h1> <hr/>
         <a target="_blank" href="visualizations/Latitude_vs_Temperature_regress.png">
-          <img src="visualizations/Latitude_vs_Temperature_regress.png" width=180 height=180 style="display: inline-block; float: left"  alt="Latitude vs Temperature">
+          <img src="visualizations/Latitude_vs_Temperature_regress.png" width=250 height=250 style="float: left"  alt="Latitude vs Temperature">
         </a>
-        <p style="font-size: 16px; display: inline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fugiat quod illum eveniet totam, nisi impedit nulla laborum,
-        quo quia sed porro placeat suscipit earum consectetur, hic sint similique id!s</p> <br> <br> <br> <br>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias fugiat explicabo nobis illo ipsam animi, nihil commodi placeat quae error iure beatae dolore asperiores. Temporibus dolor deserunt pariatur ipsa aspernatur!</p>
+        <p style="font-size: 18px; display: inline">The goal of this projecet was to determine how the weather varies based on latitude.
+          Using the OpenWeatherMap API, we pulled data for over 500 cities to do the analysis. <br> <br> <br> <br>
+       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias fugiat explicabo nobis illo ipsam animi, nihil commodi placeat quae error iure beatae dolore asperiores. Temporibus dolor deserunt pariatur ipsa aspernatur!</p>
     </div>
 
-      <div class="container", style="background-color: white; display: inline-block; margin-top: 40px; margin-bottom: 20px; margin-left: 10px; width: 27%">
-        <h2 style="margin-left: 50x; margin-top: 50px; margin-bottom: 30px; color: rgb(33, 184, 159); font-size: 25px;"><b>Visualizations</b></h2> <hr/>
+      <div class="container-fluid col-md-auto col-s-12", style="background-color: white; display: inline-block; margin-top: 40px; margin-left: 0px; padding-left: 40px; padding-right: 40px; padding-bottom: 40px">
+        <h2 style="margin-left: 50x; margin-top: 50px; margin-bottom: 30px; color: rgb(33, 184, 159); font-size: 30px;"><b>Visualizations</b></h2> <hr/>
         <div class="container">
           <div class="row">
-            <div class="col">
+            <div class="col-md-auto">
               <a target="_blank" href="https://benmxnguyen.github.io/MaxTemperature/">
-                <img src="visualizations/Latitude_vs_Temperature_regress.png" width=150 height=150 alt="Latitude vs Temperature">
+                <img src="visualizations/Latitude_vs_Temperature_regress.png" width=175 height=175 alt="Latitude vs Temperature" style="padding: 5px">
               </a>
             </div>
-            <div class="col">
+            <div class="col-md-auto">
               <a target="_blank" href="https://benmxnguyen.github.io/Humidity/">
-                <img src="visualizations/Latitude_vs_Humidity_regress.png" width=150 height=150 alt="Latitude vs Humidity">
+                <img src="visualizations/Latitude_vs_Humidity_regress.png" width=175 height=175 alt="Latitude vs Humidity" style="padding: 5px">
               </a>
             </div>
           </div>
           <div class="row">
-            <div class="col">
+            <div class="col-md-auto">
               <a target="_blank" href="https://benmxnguyen.github.io/Cloudiness/">
-                <img src="visualizations/Latitude_vs_Cloudiness_regress.png" width=150 height=150 alt="Latitude vs Cloudiness">
+                <img src="visualizations/Latitude_vs_Cloudiness_regress.png" width=175 height=175 alt="Latitude vs Cloudiness" style="padding: 5px">
               </a>
             </div>
-            <div class="col">
+            <div class="col-md-auto">
               <a target="_blank" href="https://benmxnguyen.github.io/WindSpeed/">
-                <img src="visualizations/Latitude_vs_WindSpeed_regress.png" width=150 height=150 alt="Latitude vs Wind Speed">
+                <img src="visualizations/Latitude_vs_WindSpeed_regress.png" width=175 height=175 alt="Latitude vs Wind Speed" style="padding: 5px">
               </a>
           </div>
+      </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

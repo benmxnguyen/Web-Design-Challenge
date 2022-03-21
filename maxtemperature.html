@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Max Temperature</title>
+  </head>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="https://benmxnguyen.github.io/Web-Design-Challenge/" style="padding: 10px; margin-bottom: 0px; background-color: rgb(33, 184, 159); color: white"><b>Latitude</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto;">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Plots
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="https://benmxnguyen.github.io/MaxTemperature/">Max Temperature</a>
+                  <a class="dropdown-item" href="https://benmxnguyen.github.io/Humidity/">Humidity</a>
+                  <a class="dropdown-item" href="https://benmxnguyen.github.io/Cloudiness/">Cloudiness</a>
+                  <a class="dropdown-item" href="https://benmxnguyen.github.io/WindSpeed/">Wind Speed</a>
+                </div>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="https://benmxnguyen.github.io/Comparisons/">Comparison<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://benmxnguyen.github.io/Web-Design-Challenge-Data/">Data</a>
+            </li>
+          </ul>
+        </div>
+      </nav>     
+    </header>
+
+  <body style="background-color: rgb(220, 219, 223);">
+    <div class="row">
+      <div class="container-fluid col-md-6 col-s-12" style="background-color: white; margin-top: 40px; margin-bottom: 20px;">
+          <h1 style="margin-left: 50x; margin-top: 50px; margin-bottom: 30px; color: rgb(33, 184, 159); font-size: 30px"><b>Max Temperature</b></h1> <hr/>
+            <a target="_blank" href="https://github.com/benmxnguyen/Web-Design-Challenge/blob/main/visualizations/Latitude_vs_Temperature_regress.png?raw=true">
+              <img src="https://github.com/benmxnguyen/Web-Design-Challenge/blob/main/visualizations/Latitude_vs_Temperature_regress.png?raw=true" width=100% height=500 style="float: center"  alt="Latitude vs Temperature">
+            </a>
+            <br>
+            <p style="font-size: 16px; display: inline">There seems to be a strong correlation between latitude and temperature. Moving from the extreme latitudes towards
+            the equator (0 latitude), we notice an increase in temperature as latitude approaches 0.
+            The highest temperatures are all clustered close to the equator while the colder temperatures are near the more extreme latitudes. </p> <br> <br> <br> <br>
+      </div>
+
+      <div class="container-fluid col-md-4 col-s-12", style="background-color: white; margin-top: 40px; margin-bottom: 20px;">
+        <h2 style="margin-left: 50x; margin-top: 50px; margin-bottom: 30px; color: rgb(33, 184, 159); font-size: 25px;"><b>Visualizations</b></h2> <hr/>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 col-sm-12">
+                <a target="_blank" href="https://benmxnguyen.github.io/MaxTemperature/">
+                  <img src="https://github.com/benmxnguyen/Web-Design-Challenge/blob/main/visualizations/Latitude_vs_Temperature_regress.png?raw=true" width=90% height=120% alt="Latitude vs Temperature" style="padding-top: 50px; padding-bottom: 50px">
+                </a>
+              </div>
+              <div class="col-md-6 col-sm-12">
+                <a target="_blank" href="https://benmxnguyen.github.io/Humidity/">
+                  <img src="https://github.com/benmxnguyen/Web-Design-Challenge/blob/main/visualizations/Latitude_vs_Humidity_regress.png?raw=true" width=90% height=120% alt="Latitude vs Humidity" style="padding-top: 50px; padding-bottom: 50px">
+                </a>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6 col-sm-12">
+                <a target="_blank" href="https://benmxnguyen.github.io/Cloudiness/">
+                  <img src="https://github.com/benmxnguyen/Web-Design-Challenge/blob/main/visualizations/Latitude_vs_Cloudiness_regress.png?raw=true" width=90% height=120% alt="Latitude vs Cloudiness" style="padding-top: 50px; padding-bottom: 50px">
+                </a>
+              </div>
+              <div class="col-md-6 col-sm-12">
+                <a target="_blank" href="https://benmxnguyen.github.io/WindSpeed/">
+                  <img src="https://github.com/benmxnguyen/Web-Design-Challenge/blob/main/visualizations/Latitude_vs_WindSpeed_regress.png?raw=true" width=90% height=120% alt="Latitude vs Wind Speed" style="padding-top: 50px; padding-bottom: 50px">
+                </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
